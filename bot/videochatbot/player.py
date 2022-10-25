@@ -234,4 +234,4 @@ async def not_chat(_, m: Message):
 
             ]
          ]
-    await m.reply_text(text="**So Sorry Dude... You Cant Use This Bot In This Group! But You Can Make Your Own Bot Like This From The [Source Code](https://github.com/brut-ctrl/VideoChatBot) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await m.reply_text(text="**So Sorry Dude... You Cant Use This Bot In This Group! **", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
