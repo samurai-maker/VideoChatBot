@@ -7,4 +7,5 @@ python-dotenv
 youtube_search
 youtube_search_python
 pytgcalls==3.0.0.dev19
+tgcalls==3.0.0.dev4
 git+https://github.com/pyrogram/pyrogram@master
