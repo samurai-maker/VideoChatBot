@@ -28,11 +28,7 @@ REPLY_MESSAGE = Config.REPLY_MESSAGE
 
 buttons = [
             [
-                InlineKeyboardButton("💌 Contact Me", url="https://t.me/dunottagme"),
-                InlineKeyboardButton("🏷️ Join Here", url="https://t.me/fantaestheticgang"),
-            ],
-            [
-                InlineKeyboardButton("🤖 Make Own Bot", url="https://heroku.com/deploy?template=https://github.com/brut-ctrl/VideoChatBot"),
+                InlineKeyboardButton("🏷️ Join Here", url="https://t.me/live_blue_cast"),
             ]
          ]
 
@@ -43,7 +39,7 @@ async def search(client, query):
         answers.append(
             InlineQueryResultArticle(
                 title="Deploy Own Video Chat Bot",
-                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>© Powered By: \n@dunottagme</b>", disable_web_page_preview=True),
+                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>© Powered By: \n@live_blue_cast</b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
